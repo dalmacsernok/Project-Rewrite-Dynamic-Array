@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Codecool.DynamicArray</name>
+    </assembly>
+    <members>
+        <member name="T:Codecool.DynamicArray.DynamicArray">
+            <summary>
+            This class has methods with different forms of greetings.
+            </summary>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Codecool.DynamicArray.DynamicArray"/> class with default capacity.
+            </summary>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Codecool.DynamicArray.DynamicArray"/> class.
+            </summary>
+            <param name="capacity">Starting capacity of array.</param>
+        </member>
+        <member name="P:Codecool.DynamicArray.DynamicArray.Capacity">
+            <summary>
+            Gets or sets capacity of array.
+            </summary>
+        </member>
+        <member name="P:Codecool.DynamicArray.DynamicArray.Size">
+            <summary>
+            Gets the amount of already inserted elements.
+            </summary>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.Add(System.Int32)">
+            <summary>
+            Place a new value into the array.
+            </summary>
+            <param name="value">Integre value to be stored.</param>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.Get(System.Int32)">
+            <summary>
+            Access element by index.
+            </summary>
+            <param name="index">Position of requested element.</param>
+            <returns>Element stored at given index.</returns>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.Remove(System.Int32)">
+            <summary>
+            Remove an element at the given index.
+            </summary>
+            <param name="index">Index of removable element.</param>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.Insert(System.Int32,System.Int32)">
+            <summary>
+            Inserts a value at the given index.
+            </summary>
+            <param name="index">Index of newly inserted element.</param>
+            <param name="value">Value of new element.</param>
+        </member>
+        <member name="M:Codecool.DynamicArray.DynamicArray.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:Codecool.DynamicArray.Program">
+            <summary>
+            This is the main class of your program which contains Main method
+            </summary>
+        </member>
+        <member name="M:Codecool.DynamicArray.Program.Main(System.String[])">
+            <summary>
+            This is the entry point of your program.
+            </summary>
+            <param name="args">Command line arguments.</param>
+        </member>
+    </members>
+</doc>
